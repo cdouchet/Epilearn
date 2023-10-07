@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		5D6F6CC52ACF085A0026A497 /* ARTeachHistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F6CC42ACF085A0026A497 /* ARTeachHistoryApp.swift */; };
-		5D6F6CC72ACF085A0026A497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F6CC62ACF085A0026A497 /* ContentView.swift */; };
 		5D6F6CC92ACF085B0026A497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6F6CC82ACF085B0026A497 /* Assets.xcassets */; };
 		5D6F6CCC2ACF085B0026A497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6F6CCB2ACF085B0026A497 /* Preview Assets.xcassets */; };
+		5D6F6CD42ACF08780026A497 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F6CD32ACF08780026A497 /* CustomARView.swift */; };
+		5D6F6CD62ACF091F0026A497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F6CD52ACF091F0026A497 /* ContentView.swift */; };
+		5D6F6CD82ACF095E0026A497 /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F6CD72ACF095E0026A497 /* CustomARViewRepresentable.swift */; };
+		5D7A80262AD052C20021C0F2 /* egypt.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5D7A80252AD052C10021C0F2 /* egypt.usdz */; };
+		5D7A80282AD053DD0021C0F2 /* temple.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5D7A80272AD053DD0021C0F2 /* temple.usdz */; };
+		5D807C9B2AD038C400C498A0 /* tabac.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5D807C9A2AD038C400C498A0 /* tabac.usdz */; };
+		5DAE39092AD030F200AB4BDB /* ModelsResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE39082AD030F200AB4BDB /* ModelsResources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D6F6CC12ACF085A0026A497 /* ARTeachHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTeachHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6F6CC42ACF085A0026A497 /* ARTeachHistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTeachHistoryApp.swift; sourceTree = "<group>"; };
-		5D6F6CC62ACF085A0026A497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D6F6CC82ACF085B0026A497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6F6CCB2ACF085B0026A497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D6F6CD32ACF08780026A497 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		5D6F6CD52ACF091F0026A497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D6F6CD72ACF095E0026A497 /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
+		5D7A80252AD052C10021C0F2 /* egypt.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = egypt.usdz; sourceTree = "<group>"; };
+		5D7A80272AD053DD0021C0F2 /* temple.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = temple.usdz; sourceTree = "<group>"; };
+		5D807C9A2AD038C400C498A0 /* tabac.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tabac.usdz; sourceTree = "<group>"; };
+		5DAE39082AD030F200AB4BDB /* ModelsResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsResources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,9 @@
 		5D6F6CC32ACF085A0026A497 /* ARTeachHistory */ = {
 			isa = PBXGroup;
 			children = (
+				5DAE39062AD02FF900AB4BDB /* ModelsResources */,
+				5D6F6CD22ACF08650026A497 /* Feature Targets */,
 				5D6F6CC42ACF085A0026A497 /* ARTeachHistoryApp.swift */,
-				5D6F6CC62ACF085A0026A497 /* ContentView.swift */,
 				5D6F6CC82ACF085B0026A497 /* Assets.xcassets */,
 				5D6F6CCA2ACF085B0026A497 /* Preview Content */,
 			);
@@ -65,6 +78,27 @@
 				5D6F6CCB2ACF085B0026A497 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D6F6CD22ACF08650026A497 /* Feature Targets */ = {
+			isa = PBXGroup;
+			children = (
+				5D6F6CD32ACF08780026A497 /* CustomARView.swift */,
+				5D6F6CD52ACF091F0026A497 /* ContentView.swift */,
+				5D6F6CD72ACF095E0026A497 /* CustomARViewRepresentable.swift */,
+				5DAE39082AD030F200AB4BDB /* ModelsResources.swift */,
+			);
+			path = "Feature Targets";
+			sourceTree = "<group>";
+		};
+		5DAE39062AD02FF900AB4BDB /* ModelsResources */ = {
+			isa = PBXGroup;
+			children = (
+				5D7A80252AD052C10021C0F2 /* egypt.usdz */,
+				5D807C9A2AD038C400C498A0 /* tabac.usdz */,
+				5D7A80272AD053DD0021C0F2 /* temple.usdz */,
+			);
+			path = ModelsResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +161,9 @@
 			files = (
 				5D6F6CCC2ACF085B0026A497 /* Preview Assets.xcassets in Resources */,
 				5D6F6CC92ACF085B0026A497 /* Assets.xcassets in Resources */,
+				5D807C9B2AD038C400C498A0 /* tabac.usdz in Resources */,
+				5D7A80262AD052C20021C0F2 /* egypt.usdz in Resources */,
+				5D7A80282AD053DD0021C0F2 /* temple.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D6F6CC72ACF085A0026A497 /* ContentView.swift in Sources */,
+				5D6F6CD82ACF095E0026A497 /* CustomARViewRepresentable.swift in Sources */,
+				5DAE39092AD030F200AB4BDB /* ModelsResources.swift in Sources */,
+				5D6F6CD42ACF08780026A497 /* CustomARView.swift in Sources */,
+				5D6F6CD62ACF091F0026A497 /* ContentView.swift in Sources */,
 				5D6F6CC52ACF085A0026A497 /* ARTeachHistoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +315,7 @@
 				DEVELOPMENT_TEAM = 9XGJZ44QS5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for using AR";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +345,7 @@
 				DEVELOPMENT_TEAM = 9XGJZ44QS5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Required for using AR";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
